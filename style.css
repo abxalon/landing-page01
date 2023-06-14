@@ -81,11 +81,10 @@ h2{
     margin:10px 0px 0px 0px;
 }
 
-.hero-image{
-    display: flex;
-    flex-direction: row;
-    max-width: 200px;
+.hero-img img{
+    width: 600px;
     height: auto;
+    border-radius: 10px;
 }
 
 .info {
@@ -109,7 +108,7 @@ h2{
     font-weight: 100;
 }
 
-img{
+.info img{
     border-radius: 10px;
     border: solid 4px rgb(133, 59, 155);
 }
