@@ -1,0 +1,165 @@
+body{
+    font-family: "Roboto", system-ui;
+    margin:0;
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(77, 77, 122);
+    color:white;
+    padding: 0px 200px 0px 200px;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 900;
+    flex-shrink: 0;
+    min-width: 200px;
+}
+
+.menu{
+    list-style-type: none;
+    padding:0;
+    display:flex;
+    gap:16px;
+    flex-shrink: 0;
+}
+
+.navlink{
+    text-decoration: none;
+    color:white;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    background-color: rgb(77, 77, 122);
+    align-items: center;
+    padding: 40px 200px 60px 200px;
+    color:white;
+    flex-shrink: 0;   
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-button{
+    background-color: rgb(124, 56, 93);;
+    color:white;
+    border-color:white;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 200px 60px 200px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin:10px 0px 0px 0px;
+}
+
+.hero-image{
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    height: auto;
+}
+
+.quote-section{
+    background-color: lightgray;
+    padding: 100px 550px 100px 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+img{
+    border-radius: 10px;
+    border: solid 4px rgb(133, 59, 155);
+}
+
+.author{
+    align-self: flex-end;
+    padding:5px;
+    font-weight: 900;
+    font-size:24px;
+}
+
+.cta-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;px;
+    background-color: rgb(77, 77, 122);
+    align-items: center;
+    margin: 100px 400px 100px 400px;
+    height:150px;
+    padding:40px; 
+    border-radius: 10px;
+    color:white;   
+}
+
+.cta-subtext{
+    margin:0;
+    padding-bottom: 15px;
+}
+
+.CTA{
+    margin:0
+}
+
+.CTA-button{
+    background-color: transparent;
+    color:white;
+    border-color:white;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 120px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer{
+    display: flex;
+    background-color: lightgray;
+    padding:30px;
+    justify-content: center;
+}
